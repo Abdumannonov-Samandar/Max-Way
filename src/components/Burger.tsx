@@ -17,11 +17,11 @@ import {
 
 
 
-const BurgerSection = () => {
+const Burger = () => {
     return (
         <section className="py-[50px]">
-            <div className="container px-4 max-w-[1142px] mx-auto">
-                <div className="flex flex-col">
+            <div className="container">
+                <div className="flex flex-col max-w-[1110px] mx-auto">
                     <h2 className="font-bold text-[#222124] text-[36px] leading-[43.57px] mb-[21px] md:mb-[30px] md:text-[52px] md:leading-[62.93px]">Burger</h2>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-y-[30px] md:gap-x-[30px]">
                         <li>
@@ -35,7 +35,7 @@ const BurgerSection = () => {
                                     </CardDescription>
                                     <div className="flex items-center justify-between">
                                         <span className="font-bold md:text-[24px] md:leading-[29px] text-[#222124] text-[18px] leading-[22px]">23,000 UZS</span>
-                                        <Button className='rounded-full md:text-[24px] p-[13px] md:w-[50px] flex items-center justify-center md:h-[50px] w-[35.37px] h-[35.37px] text-[17px]'> + </Button>
+                                        <Button onClick={() => alert('Cheeseburger Add')} className='rounded-full md:text-[24px] p-[13px] pb-[15px] md:w-[50px] flex items-center justify-center md:h-[50px] w-[35.37px] h-[35.37px] text-[17px]'> + </Button>
                                     </div>
                                 </CardHeader>
                                 <CardContent className="p-0 w-full relative">
@@ -44,7 +44,7 @@ const BurgerSection = () => {
                                         из говядины, томатами,
                                         моцареллой и соусом чипотле"
                                         />
-                                        <span className="absolute top-3 md:h-[50px] md:w-[50px] w-[35.37px] h-[35.37px] shadow-[0px_7px_40px_0px_rgba(238,39,68,0.36)] bg-[rgba(255,255,255,0.25)] rounded-full flex items-center justify-center md:text-[24px] text-[17px]">🔥</span>
+                                        <span className="absolute top-3 md:h-[50px] md:w-[50px] w-[35.37px] h-[35.37px] drop-shadow-[0px_7px_40px_0px_rgba(238,39,68,0.36)] bg-[rgba(238,39,69,0.36)] rounded-full flex items-center justify-center md:text-[24px] text-[17px]">🔥</span>
                                 </CardContent>
                             </Card>
                         </li>
@@ -59,7 +59,7 @@ const BurgerSection = () => {
                                     </CardDescription>
                                     <div className="flex items-center justify-between">
                                         <span className="font-bold md:text-[24px] md:leading-[29px] text-[#222124] text-[18px] leading-[22px]">23,000 UZS</span>
-                                        <Button className='rounded-full md:text-[24px] p-[13px] md:w-[50px] md:h-[50px] w-[35.37px] h-[35.37px] text-[17px]'> + </Button>
+                                        <Button className='rounded-full md:text-[24px] pb-[15px] p-[13px] md:w-[50px] md:h-[50px] w-[35.37px] h-[35.37px] text-[17px]'> + </Button>
                                     </div>
                                 </CardHeader>
                                 <CardContent className="p-0 w-full">
@@ -82,7 +82,7 @@ const BurgerSection = () => {
                                     </CardDescription>
                                     <div className="flex items-center justify-between">
                                         <span className="font-bold md:text-[24px] md:leading-[29px] text-[#222124] text-[18px] leading-[22px]">23,000 UZS</span>
-                                        <Button className='rounded-full md:text-[24px] p-[13px] md:w-[50px] md:h-[50px] w-[35.37px] h-[35.37px] text-[17px]'> + </Button>
+                                        <Button className='rounded-full md:text-[24px] pb-[15px] p-[13px] md:w-[50px] md:h-[50px] w-[35.37px] h-[35.37px] text-[17px]'> + </Button>
                                     </div>
                                 </CardHeader>
                                 <CardContent className="p-0 w-full relative">
@@ -91,7 +91,7 @@ const BurgerSection = () => {
                                         из говядины, томатами,
                                         моцареллой и соусом чипотле"
                                         />
-                                        <span className="absolute top-3 md:h-[50px] md:w-[50px] w-[35.37px] h-[35.37px] shadow-[0px_7px_40px_0px_rgba(238,39,68,0.36)] bg-[rgba(255,255,255,0.25)] rounded-full flex items-center justify-center md:text-[24px] text-[17px]">🔥</span>
+                                        <span className="absolute top-3 md:h-[50px] md:w-[50px] w-[35.37px] h-[35.37px] drop-shadow-[0px_7px_40px_0px_rgba(238,39,68,0.36)] bg-[rgba(238,39,69,0.36)] rounded-full flex items-center justify-center md:text-[24px] text-[17px]">🔥</span>
                                 </CardContent>
                             </Card>
                         </li>
@@ -106,7 +106,7 @@ const BurgerSection = () => {
                                     </CardDescription>
                                     <div className="flex items-center justify-between">
                                         <span className="font-bold md:text-[24px] md:leading-[29px] text-[#222124] text-[18px] leading-[22px]">23,000 UZS</span>
-                                        <Button className='rounded-full md:text-[24px] p-[13px] md:w-[50px] md:h-[50px] w-[35.37px] h-[35.37px] text-[17px]'> + </Button>
+                                        <Button className='rounded-full md:text-[24px] pb-[15px] p-[13px] md:w-[50px] md:h-[50px] w-[35.37px] h-[35.37px] text-[17px]'> + </Button>
                                     </div>
                                 </CardHeader>
                                 <CardContent className="p-0 w-full relative">
@@ -115,7 +115,7 @@ const BurgerSection = () => {
                                         из говядины, томатами,
                                         моцареллой и соусом чипотле"
                                         />
-                                        <span className="absolute top-3 hidden md:h-[50px] md:w-[50px] w-[35.37px] h-[35.37px] shadow-[0px_7px_40px_0px_rgba(238,39,68,0.36)] bg-[rgba(255,255,255,0.25)] rounded-full items-center justify-center md:text-[24px] text-[17px]">🔥</span>
+                                        <span className="absolute top-3 hidden md:h-[50px] md:w-[50px] w-[35.37px] h-[35.37px] drop-shadow-[0px_7px_40px_0px_rgba(238,39,68,0.36)] bg-[rgba(238,39,69,0.36)] rounded-full items-center justify-center md:text-[24px] text-[17px]">🔥</span>
                                 </CardContent>
                             </Card>
                         </li>
@@ -132,7 +132,7 @@ const BurgerSection = () => {
                                     </CardDescription>
                                     <div className="flex items-center justify-between">
                                         <span className="font-bold md:text-[24px] md:leading-[29px] text-[#222124] text-[18px] leading-[22px]">23,000 UZS</span>
-                                        <Button className='rounded-full md:text-[24px] p-[13px] md:w-[50px] md:h-[50px] w-[35.37px] h-[35.37px] text-[17px]'> + </Button>
+                                        <Button className='rounded-full md:text-[24px] pb-[15px] p-[13px] md:w-[50px] md:h-[50px] w-[35.37px] h-[35.37px] text-[17px]'> + </Button>
                                     </div>
                                 </CardHeader>
                                 <CardContent className="p-0 w-full">
@@ -156,4 +156,4 @@ const BurgerSection = () => {
     )
 }
 
-export default BurgerSection
+export default Burger
